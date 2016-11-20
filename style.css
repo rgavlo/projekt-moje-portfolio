@@ -29,10 +29,6 @@ section > h2 {
 }
 
 
-section > h3 {
-    
-}
-
 
 p {
  font-weight: 300;
@@ -180,18 +176,13 @@ section {
 #skills>p {
      text-align: center;
 }
-h2 {
-    text-align: left;
-    color: white;
-}
+
 
 section#contact {
     background-color: #213b50;
     width: 100%;
     float: left;
-    
-
-       
+        
 }
 
 #contacts {
