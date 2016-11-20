@@ -1,12 +1,57 @@
 /*General styles*/
 
 body {
+    
     background-color: #19820B;
     font-family: 'Lato', sans-serif;
     color: #291f1a;
 }
 
+/*Main menu styles*/
 
 h1 {
+    
     font-family: 'Roboto', sans-serif;
+
+}
+
+
+#main-nav {
+    
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    width: 100%;
+    right: 0;
+    
+}
+
+#main-nav>ul {
+    
+    float: right;
+    margin: 0;
+    
+    
+}
+
+#main-nav>ul>li {
+    
+    display: inline-block;
+    list-style: none;
+    padding: 20px 35px;
+    
+   
+}
+
+#main-nav>ul>li>a {
+    
+    color: #1ac056;
+    text-decoration: none;
+    
+}
+
+#main-nav>ul>li>a:hover {
+    color: #291f1a;
+    
+    
 }
