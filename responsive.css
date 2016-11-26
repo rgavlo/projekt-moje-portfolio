@@ -9,7 +9,7 @@
 
 @media all and (max-width : 768px) {
     
-    #main-nav .toggle,  {
+    #main-nav .toggle  {
         display: block;
         color: #1ac056;
         padding: 0 20px;
