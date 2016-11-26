@@ -86,6 +86,12 @@ section {
 #main-nav>ul>li>a:hover {
     color: #291f1a;
     
+
+}
+
+
+#main-nav .toggle, #drop {
+    display: none;
 }
 /*Header styles*/
 
