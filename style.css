@@ -29,6 +29,10 @@ section > h2 {
 }
 
 
+a {
+    text-decoration: none;
+}
+
 
 p {
  font-weight: 300;
@@ -178,48 +182,230 @@ section {
 }
 
 
+#contacts>h2 {
+  text-align: left;
+    font-size: 30px;
+ 
+    
+}
+
+
+
+
+
+
+
 section#contact {
-    background-color: #213b50;
-    width: 100%;
+    background-color: darkslateblue ;
+    color: white;
+    overflow: hidden;
+    max-width: 100%;
+    position: relative;
+
+}
+
+
+#contacts {
+    width: 50%;
+    top: 600px;
+    left: 20px;
     float: left;
+    margin-top: 20px;
+  
+    
+}
+
+
+#forma {
+  width: 50%;
+  float: right;
+  margin-top: 50px;
+  margin-bottom: 0;
+    
+}
+
+
+address {
+    margin: 0;
+    font-weight: 400;
+    font-size: 17px;
+}
+   
+
+
+
+input  {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 4px 0;
+    background-color: cornflowerblue;
+    border: 0;
+}
+
+input:hover {
+    background-color: white;
+}
+
+input:focus {
+    background-color: white;
+}
+
+input#przycisk {
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    color: white;
+    font-weight: 350;
+    font-size: 17px;
+    float: right;
+    
+}
+
+input#przycisk:hover {
+    background-color: white;
+}
+
+input#przycisk:focus {
+    background-color: white;
+}
+
+form textarea {
+    width: 100%;
+    padding: 20px 10px;
+    margin: 1px 0;
+    background-color: cornflowerblue;
+
+}
+    
+form textarea:hover {
+   background-color: white;
+}
+
+
+
+form textarea:focus {
+    background-color: white;
+}
+
+
+#icons {
+    margin-top: 100px;
+}
+
+
+#icons a {
+    border: 1px solid #fff;
+    color: #fff;
+    width: 38px;
+    height: 38px;
+    display: inline-block;
+    text-align: center;   
+    line-height: 38px;
+    margin-right: 20px;
+}
+
+
+
+footer {
+    background-color: black;
+    color: white;
+   
+    
+   
+}
+
+footer>p {
+    margin: 0;
+    padding-left: 80px;
         
 }
 
-#contacts {
-    color:#fff;
-    float: left;
+
+/*Koniec kontakt*/
+
+
+/*Moje portfolio*/
+
+
+
+
+#portfolio {
+    width: 100%;
+    font-size: 0;
+}
+
+
+.portfolio-img {
+    display: inline-block;
+    width: 33.33%;
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    position: relative;
+}
+
+
+.portfolio-mask {
+    position: absolute;
+    background: rgba(26, 104, 131, 0.7);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    font-size:
+    transition: all 0.5s ease-in-out;
+
+}
+
+#images {
+    width: 100%;
+}
+
+
+#portfolio-item1 {
+    background-image: url("img/portfolio1.jpg");
     
 }
 
 
-#contacts>p>a {
-    text-decoration: none;
-    color: green;
+#portfolio-item2 {
+    background-image: url("img/portfolio2.jpg");
     
 }
 
 
-section#contact>form {
-    width: 50%;
-    float: right;
-}
-
-section#contact>form>input {
-    background-color: #304887;
-    border: 0;
-}
-
-section#contact>form>textarea {
-    background-color: #304887;
-    border: 0;
+#portfolio-item3 {
+    background-image: url("img/portfolio4.jpg");
     
 }
 
-section#contact>form>input:focus{
-    background-color: white;
+
+
+
+.portfolio-mask:hover {
+    opacity: 1;
+    
 }
 
-section#contact>form>textarea:focus {
-    background-color: white;
+.mask-border {
+    border: 1px solid #fff;
+    height: 330px;
+    margin: 10px;
+    position: relative;
 }
+
+.portfolio-content {
+   font-size: initial;
+    text-align: center;
+    color: #fff;
+    transform: translateY(0);
+    top: 50%;
+}
+
+
+.portfolio-content a {
+    color: #fff;
+}
+
+
+
 
