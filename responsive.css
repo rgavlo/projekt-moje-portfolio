@@ -3,6 +3,18 @@
 @media all and (max-width : 1200px) {
     
     
+    
+    #portfolio-item1 {
+        width: 50%;
+    }  
+    
+    #portfolio-item2 {
+        width: 50%;
+    }
+    
+    #portfolio-item3 {
+        width: 100%;
+    }
 }
 
 
@@ -29,13 +41,122 @@
         display: block;
     }
 
+    #main-nav ul li {
+        display: block;
+         padding-right: 20px;
+        
+    }
+    
+    #main-nav ul {
+        text-align: right;
+       
+    }
+    
+    #images {
+        
+    }
+    
+    
+    
+    #main-header .main-header-content {
+        padding: 15%;
+        text-align: center;
+        
+    }
+    
+    #main-header .main-header-content h1 {
+        font-size: 3em;
+    }
+     
+    
+    #main-header .main-header-content h2 {
+        font-size: 1.5em;
+    }
 
+     
+    #about>figure>img {
+        max-height: inherit;
+       
+    }
+    
+    #about>figure {
+         width: 100%;
+    }
+    
+    #about>article {
+         text-align: center;
+         width: 100%;
+    
+    
 }
+/*Portfolio styles resp*/
+    
+    #portfolio .portfolio-img  {
+        width: 100%;
+    }
+    
+    
+    
+/*Kontakt styles resp*/
+    
+    #contact {
+        display: block;
+        text-align: center;
+    }
+    
+   
+    #contacts>h2 {
+        text-align: center;
+    }
+    
+    
+    #contacts {
+        width: 100%
+        
+    }
+   
+    
+    #forma {
+        width: 100%;
+    }
+    
+    #icons a {
+        margin: 0;
+    }
 
 
 
 
 @media all and (max-width : 680px) {
+    
+    
+    
+    #main-header .main-header-content h1 {
+        font-size: 3em;
+    }
+    
+    #main-header .main-header-content h1 {
+        font-size: 1.5em;
+    }
+    
+    #about {
+        padding: 0;
+    }
+    
+    #about>figure>img {
+        max-height: inherit;
+       
+    }
+    
+    #about>figure {
+        width: 100%;
+    }
+    
+    #about>article {
+         text-align: center;
+         width: 100%;
+        
+    }
     
     
 }
@@ -45,6 +166,39 @@
 @media all and (max-width : 480px) {
     
     
+     #main-header .main-header-content {
+        padding: 20%;
+    }
+    
+    #main-header .main-header-content h1 {
+        font-size: 2.5em;
+    }
+    
+    #main-header .main-header-content h1 {
+        font-size: 1.2em;
+    }
+    
+    
+    #about {
+       
+    }
+    
+    #about>figure>img {
+        max-height: inherit;
+       
+    }
+    
+    #about>figure {
+         width: 100%;
+    }
+    
+    #about>article {
+         text-align: center;
+         width: 100%;
+         
+        
+    }
+    
 }
 
-/*Responsive Styles Start*/
+/*Responsive Styles Finish*/
