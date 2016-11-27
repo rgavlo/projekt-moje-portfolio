@@ -158,6 +158,9 @@
         
     }
     
+    section {
+        padding: 0 40px 50 px;
+    }
     
 }
 
@@ -177,28 +180,11 @@
     #main-header .main-header-content h1 {
         font-size: 1.2em;
     }
-    
-    
-    #about {
-       
+          
     }
-    
-    #about>figure>img {
-        max-height: inherit;
-       
+    section {
+        padding: 0 10px 30 px;
     }
-    
-    #about>figure {
-         width: 100%;
-    }
-    
-    #about>article {
-         text-align: center;
-         width: 100%;
-         
-        
-    }
-    
 }
 
 /*Responsive Styles Finish*/
